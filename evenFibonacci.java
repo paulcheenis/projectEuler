@@ -6,14 +6,15 @@ public class evenFibonacci{
         int term1 = 1;
         int term2 = 2;
         int fibsum = term1 + term2;
-        ArrayList<Integer> fibSeq = new ArrayList<Integer>();
-        fibSeq.add(term1);
-        fibSeq.add(term2);
+
+        ArrayList<Integer> fibSeq = new ArrayList<Integer>(); // Created ArrayList that can be appended
+        fibSeq.add(term1); // added term 1 to array
+        fibSeq.add(term2); // added term 2 to array
         int total = 0;
         
         while (fibsum < max) {
             fibsum = term1 + term2;
-            fibSeq.add(fibsum);
+            fibSeq.add(fibsum); // adding term to array
             term1 = term2;
             term2 = fibsum;
         }
