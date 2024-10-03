@@ -15,6 +15,6 @@ print(triangle(7)) # expect 28
 print(factor_array(triangle(7)))
 print(len(factor_array(triangle(7))))
 
-print(triangle(75000)) 
+print(triangle(100000)) 
 #print(factor_array(triangle(50000)))
-print(len(factor_array(triangle(75000))))
+print(len(factor_array(triangle(100000))))
